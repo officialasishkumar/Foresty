@@ -12,7 +12,6 @@ const RewardsPageComp1 = () => {
     const [rewardAll, setRewardAll] = React.useState(null);
 
     useEffect(() => {
-
     }, [])
 
     return (
