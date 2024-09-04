@@ -16,7 +16,7 @@ export default {
         },
         {
             name: 'TreeWatered',
-            title: 'TreeWatered',
+            title: 'TreeWa tered',
             type: 'reference',
             to: [{ type: 'trees' }]
         },
