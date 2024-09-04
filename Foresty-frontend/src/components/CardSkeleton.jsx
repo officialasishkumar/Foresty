@@ -12,6 +12,6 @@ const CardSkeleton = () => {
             </ChakraProvider>
         </div>
     );
-};
+}; 
 
 export default CardSkeleton;
