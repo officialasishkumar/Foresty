@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { client } from "../client";
 
 const LoginBtn = () => {
-    const navigate = useNavigate();
+    const navigate = useNavigate(); // not used
     function login(res) {
         const data = jwt_decode(res.credential);
         localStorage.setItem("user", JSON.stringify(data));
